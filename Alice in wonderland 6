@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num,sum;
+    scanf("%d",&num);
+    int digit1=num/10;
+    int digit2=num%10;
+    sum=digit1+digit2;
+    printf("Bird said:%d\n",num);
+    printf("Alice must go in path-%d\n",sum);
+    return 0;
+}
